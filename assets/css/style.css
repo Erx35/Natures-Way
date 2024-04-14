@@ -20,11 +20,11 @@ body {
 
 /* Header */
 header {
-    /*background-color: #ffffff;*/
+    /*Header backgroung image*/
     background: url('../images/header-image.JPG') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -60,7 +60,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
     font-size: 20px;
 }
@@ -94,26 +94,14 @@ nav {
     font-size: 2rem;
 }
 
+
+/*Main*/
 main {
     background-color: aqua;
     flex: 1 0 auto;
     margin-top: 79px;
 }
 
-/*#quote {
-    background: url(../images/quote-image.jpeg) no-repeat;
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    width: 100%;
-    margin-top: auto;
-    position: relative;
-    object-fit: contain;
-    left: 10px;
-    flex: 1 0 auto;
-    
-}
-*/
 /* Footer */
 #social-networks {
     text-align: center;
@@ -131,6 +119,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -144,7 +133,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -167,7 +156,7 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
