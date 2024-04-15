@@ -184,6 +184,36 @@ footer {
     color: #3a3a3a;
 }
 
+/* Plants page Main*/
+
+.plants-list {
+    margin-top: 10px;
+    align-items: center;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#chamomile-image {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#chamomile-header {
+    font-size: 20px;
+    text-align: center;
+}
+
+#chamomile {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 10px;
+}
+
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
