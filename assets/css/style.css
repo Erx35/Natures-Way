@@ -150,6 +150,7 @@ main {
 
 #fact-section h2 {
     width: 100%;
+    margin-bottom: 20px;
 
 }
 #fact-section h3 {
@@ -218,11 +219,30 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+    #quote {
+        font-size: 150%;
+    }
+    #reference {
+        font-size: 150%;
+    }
+    .info {
+        font-size: 150%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    #quote {
+        font-size: 250%;
+    }
+    #reference {
+        font-size: 250%;
+    }
+    .info {
+        font-size: 250%;
     }
 }
