@@ -212,6 +212,10 @@ footer {
     margin: 10px 10px;
 }
 
+#elserflower-image {
+    image-resolution: 50px 50px;
+}
+
 
 
 /* Media query: tablets and larger (768px and up) */
