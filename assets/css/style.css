@@ -23,8 +23,6 @@ header {
     /*Header backgroung image*/
     background: url('../images/header-image.JPG') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: nowrap;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -100,28 +98,29 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 72px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+    background-color: bisque;
 }
 
-#quote-image {
-    height: 600px;
+.quote-image {
+    height: 400px;
     width: 100%;
     background: url("../images/quote-image.jpeg") no-repeat center center/cover;
     position: relative;
  }
 
-#quote-text {
+.quote-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(95, 209, 104, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
+    min-height: 125px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
@@ -129,7 +128,19 @@ main {
     color: #ffffff;
 }
 
+main section div h2 {
+    font-size: 15px;
+}
+main section div h3 {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+}
+
 /* Footer */
+footer {
+    background-color: lightgray;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
