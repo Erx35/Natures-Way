@@ -143,23 +143,26 @@ main {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
+    align-items: self-start;
     text-align: center;
-    margin: 10px 20px;
+    margin: 20px auto;
 }
 
 #fact-section h2 {
     width: 100%;
 
 }
+#fact-section h3 {
+    margin: 5px 5px;
+}
 
 #fact-box div {
     width: 100%;
-    background-color: rgb(40, 194, 194);
+    border: 2px solid rgb(0, 0, 0);
     align-items: center;
 }
-
-#fact-header {
-    align-content: center;
+.fact-text {
+    margin: 10px 10px;
 }
 
 /* Footer */
