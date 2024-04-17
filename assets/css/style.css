@@ -268,14 +268,20 @@ footer {
     list-style-type: circle;
     display: list-item;
     list-style-position: inside;
-    padding: 0;
+    padding-bottom: 10px;
 }
 
 .tab {
     padding: 6px 12px;
 }
 
-
+.info-footer {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 10px;
+    color: crimson
+}
 
 
 /* Media query: tablets and larger (768px and up) */
