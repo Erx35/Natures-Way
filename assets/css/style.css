@@ -185,41 +185,58 @@ footer {
 }
 
 /* Plants page Main*/
-
 .plants-list {
+    width: 100%;
     margin-top: 10px;
-    align-items: center;
+    align-items:start;
     flex: 1 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }
 
-#chamomile-image {
+#plants-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#plant-image-container {
     display: grid;
     place-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    flex-grow: 2;
 }
 
-#chamomile-header {
+#plant-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#plant-header {
+    margin: 10px 10px;
     font-size: 20px;
     text-align: center;
 }
 
-#chamomile {
+#plant {
+    height: 286px;
+    width: 256px;
     border: 2px solid rgb(0, 0, 0);
     margin: 10px 10px;
 }
 
-#elserflower-image {
-    image-resolution: 50px 50px;
+#plant-data-container {
+    align-items: center;
 }
 
 
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
 
     /* Header */
     nav {
