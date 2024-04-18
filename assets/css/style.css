@@ -285,6 +285,14 @@ footer {
     width: 100%;
 }
 
+.list-marker-auto{
+    list-style-type: auto;
+}
+
+.list-marker-off {
+    list-style-type: none;
+}
+
 .info-footer {
     width: 100%;
     text-align: center;
