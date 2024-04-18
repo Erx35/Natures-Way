@@ -40,12 +40,12 @@
     <!--The code for the contact page taken from https://www.w3schools.com/howto/howto_css_contact_form.asp and adapted to current project-->
     <main>
         <div class="contact-window">
-            <form>
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net" target="_blank">
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+                <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
 
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+                <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
 
                 <label for="country">Country</label>
                 <select id="country" name="country">
@@ -59,7 +59,7 @@
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="What is your query"
-                    style="height:200px"></textarea>
+                    style="height:200px" required></textarea>
 
                 <input type="submit" value="Send Message">
 
