@@ -281,6 +281,10 @@ footer {
     padding: 6px 12px;
 }
 
+.width-100prc {
+    width: 100%;
+}
+
 .info-footer {
     width: 100%;
     text-align: center;
