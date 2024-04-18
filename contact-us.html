@@ -29,16 +29,41 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html"">Home</a></li>
-                <li><a href="plants.html">Plants</a></li>
+                <li><a href=" plants.html">Plants</a></li>
                 <li><a href="useful-links.html">Useful Links</a></li>
-                <li><a href="contact-us.html"  class="active">Contact Us</a></li>
+                <li><a href="contact-us.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <main>This will be the main page body
-        <div id="quote"></div>
+    <main>
+        <div class="contact-window">
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="europe">Europe</option>
+                    <option value="middle-east">Middle-East</option>
+                    <option value="africa">Africa</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Message</label>
+                <textarea id="message" name="message" placeholder="What is your query"
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </main>
 
     <!-- Footer -->
