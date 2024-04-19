@@ -101,132 +101,18 @@ No unfixed bugs
 
 ## Credits
 
+* The code for the contact page taken from [W3school resource](https://www.w3schools.com/howto/howto_css_contact_form.asp) and adapted to current project.
+* Check response code elements were taken from CI Love Running projectand adapted to current project.
+* The code to make social media links was taken from CI Love Running projectand adapted to current project.
+* Navbar styles with dropdown toggle taken from CI Love Running project and adapted to current project.
+* Ideas for the Useful Links buttons were taken from [W3school resource](https://www.w3schools.com/css/css3_buttons.asp)
+* Most used web page for this project was [W3school main page](https://www.w3schools.com) to debug, learn and develop project presented here.
+
 
 
 
 ## Media
 
-
-
-
-1. dsfgdfg
-2. dsfgsdfg
-
-dsdfgd hfghjfj
-
-- sfdgsdf 
-* dsfgsd 
-+ gsdfgdfg 
-    - sdfgsdfg 
-
-    >fsdflsdfsdf  
-
-    >>fasdfsdjflasjgsg 
-    >>>>>> sapdofasgjdsadg 
-
-sdfhskjhs 
-=========
-dgasgkasfdkgpfogk 
--------------------
-
-fsdjfgsjdg;dsjhdlkhj;lfgkhj;.   
-
-sdghjsdfhldkfhj.   
-
-**asfasf**  
-__sdasf__   
-yes**turd**ay  
-
-*dfasfasdf*  
-_vafgdag_  
-so*met*imes  
-
-
-***Important***   
-___Important___   
-__*Important*__   
-Really***very***important  
-
->dfhaskdhksl    
->    
->>klj;lfkgjsdfg   
-
-> ### The quarterly results look great!
->
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**.
-
-
-1. First item
-2. Second item
-3. Third item
-4. Fourth item     
-
-
-1. First item
-2. Second item
-3. Third item
-    1. Indented item
-    2. Indented item
-4. Fourth item
-
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
-
-- 1968\. A great year!
-- I think 1969 was second best.   
-
-
-* This is the first list item.
-* Here's the second list item.
-
-    I need to add another paragraph below the second list item.
-
-* And here's the third list item.    
-
-
-* This is the first list item.
-* Here's the second list item.
-
-    > A blockquote would look great below the second list item.
-
-* And here's the third list item.   
-
-
-``Use `code` in your Markdown file.``   
-***
-
-***
--------
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").   
-
-<https://www.markdownguide.org>   
-<fake@example.com>    
-
-I love supporting the **[EFF](https://eff.org)**.   
-This is the *[Markdown Guide](https://www.markdownguide.org)*.   
-See the section on [`code`](#code).   
-
-This is the webpage for the MD syntax: [Click Here](https://www.markdownguide.org/basic-syntax/)  
-
-
-Hi   
-[link to google](https://google.com)
-
-https://google.com)
-## h2
-### h3
-#### h4
-##### h5
-###### h6
-
-![Image](/assets/media/Lighthouse-performance.JPG)
-![web page view](/assets/media/Web-page-view.JPG)
+* Main page images genereted with AI app Copilot (availible on mobile Androind platform) [Copilot](https://copilot.microsoft.com/).
+* Some of the text content of the page generated with AI app Copilot (availible on mobile Androind platform) [Copilot](https://copilot.microsoft.com/).
 
