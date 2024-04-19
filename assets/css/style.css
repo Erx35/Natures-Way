@@ -59,8 +59,9 @@ h1 {
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin: 10px 0;
     font-size: 20px;
+    padding: 0 10px;
 }
 
 .active {
@@ -354,9 +355,9 @@ input[type=submit]:hover {
 }
 
 
-/* Media query: tablets and larger (770px and up) */
+/* Media query: tablets and larger (809px and up) */
 /* Media querys code taken from CI Love Running project*/
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 809px) {
 
     /* Header */
     nav {
