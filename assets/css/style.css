@@ -67,7 +67,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles with dropdown toggle taken from CI Love Running project*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -95,11 +95,8 @@ nav {
 
 /*Main*/
 main {
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 72px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -114,7 +111,6 @@ main {
 }
 
 .quote-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(11, 184, 25, 0.5);
     font-size: 130%;
     position: absolute;
@@ -139,7 +135,6 @@ main {
 }
 
 /*Known facts section*/
-
 #fact-section {
     width: 90%;
     display: flex;
@@ -152,7 +147,6 @@ main {
 #fact-section h2 {
     width: 100%;
     margin-bottom: 20px;
-
 }
 
 #fact-section h3 {
@@ -169,7 +163,8 @@ main {
     margin: 10px 10px;
 }
 
-/* Footer */
+/*Main page footer */
+/* The code to make social media links was taken from CI Love Running project*/
 footer {
     background-color: lightgray;
 }
@@ -198,15 +193,12 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
 
 .plants-header {
     text-align: center;
     margin-top: 20px;
     background-color: rgb(7, 248, 27, 0.56);
-
 }
 
 .plant-image-container {
@@ -241,7 +233,6 @@ footer {
 
 
 /*Plant info page styles*/
-
 #info-box {
     width: 100%;
     align-items: start;
@@ -285,7 +276,7 @@ footer {
     width: 100%;
 }
 
-.list-marker-auto{
+.list-marker-auto {
     list-style-type: auto;
 }
 
@@ -302,29 +293,22 @@ footer {
 }
 
 /* The code for the contact page taken from https://www.w3schools.com/howto/howto_css_contact_form.asp and adapted to current project*/
+/* Check response code elements were taken from CI Love Running project*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the submit button with a specific background color and dimentions */
 input[type=submit] {
     background-color: #128018;
     color: white;
@@ -362,16 +346,16 @@ input[type=submit]:hover {
 .button1 {
     background-color: #04AA6D;
     color: #ffffff;
-
 }
 
 .button:hover {
-    background-color: #0f572a; /* Green */
+    background-color: #0f572a;
     color: white;
 }
 
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (770px and up) */
+/* Media querys code taken from CI Love Running project*/
 @media screen and (min-width: 770px) {
 
     /* Header */
@@ -403,7 +387,6 @@ input[type=submit]:hover {
 
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
