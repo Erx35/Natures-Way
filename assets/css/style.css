@@ -21,7 +21,8 @@ body {
 /* Header */
 header {
     /*Header backgroung image*/
-    background: url('../images/header-image.JPG') no-repeat center/cover;
+    /*background: url('../images/header-image.JPG') no-repeat center/cover;*/
+    background-color: #b1eeb4;
     /* Handles responsivity without the need for a media query */
     padding: 0 10px;
     position: fixed;
@@ -133,6 +134,17 @@ main {
     text-align: right;
     padding-right: 10px;
     padding-top: 15px;
+}
+
+.introduction {
+    width: 100%;
+    margin-top: 10px;
+    align-items: start;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*Known facts section*/
@@ -381,8 +393,8 @@ input[type=submit]:hover {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 270%;
+        line-height: 80px;
         margin: 0 0.5rem;
     }
 
